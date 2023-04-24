@@ -1,0 +1,413 @@
+@media only screen and (min-width:600px)and (max-width:1024px) {
+    .logo img {
+        height: 65px;
+    }
+
+    .a1 {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        margin-left: 30px;
+
+    }
+
+    #care1 {
+        color: rgb(17, 17, 235);
+
+    }
+
+    #burgir {
+        height: 45px;
+ }
+
+    nav {
+        justify-content: space-around;
+        display: flex;
+        position: relative;
+
+    }
+
+    #button1 {
+        width: 90px;
+        height: 37px;
+        background-color: rgb(35, 35, 180);
+        color: white;
+        border-radius: 20px;
+        margin-top: 10px;
+        border-radius: none;
+        padding: 5px;
+        margin-left: 100px;
+        margin-left: 370px;
+    }
+
+    /* container1 */
+    .boxa {
+        width: 300px;
+    }
+
+    #img5{
+        height: 350px;
+        width: 400px;
+        margin-right: 1px;
+        margin-top: 40px;
+    }
+
+    .main {
+        display: flex;
+        /* gap: 100px; */
+        /* margin-top: 50px; */
+    }
+
+    .first {
+        margin-top: 50px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    #pic1{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 100px;
+    }
+
+    .second {
+        margin-top: 15px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .third {
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    #button3 {
+        width: 370px;
+        height: 45px;
+        background-color: rgb(34, 34, 188);
+        border-radius: 20px;
+        color: white;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    #button4 {
+        width: 300px;
+        height: 45px;
+        border-radius: 22px;
+        background-color: rgb(34, 34, 188);
+        color: white;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+
+    .container1 {
+        height: 450px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+    }
+
+    #girl1 {
+        height: 430px;
+        margin-top: 20px;
+    }
+
+
+    .container1,
+    .container2,
+    header {
+        background-image: url("/assets/linear medicle.jpg");
+        size: 100%;
+    }
+
+    .boxa #uline {
+        color: rgb(51, 51, 240);
+    }
+
+    /* container2 */
+
+
+    .card2 {
+        margin-left: 100px;
+    }
+
+    .card2 #uline {
+        color: rgb(35, 35, 180);
+
+    }
+
+    #card1 {
+        box-shadow: 5px solid gray;
+        background-color: rgb(35, 147, 217);
+        text-align: center;
+        height: 210px;
+        width: 170px;
+        font-size: 12px;
+        margin-left: 100px;
+        transition: background-color 5s; 
+    }
+      
+       #card1:hover {
+        /* background-color: gold; */
+        background-color: rgb(159, 142, 145);
+        /* transition: background-color 5s; */
+        
+      }
+      
+        
+    
+
+    #card2 {
+        /* border: 1px solid black; */
+        background-color: violet;
+        text-align: center;
+        height: 210px;
+        width: 170px;
+        font-size: 12px;
+        margin-left: 100px;
+        transition: background-color 5s;
+     }
+
+     #card2:hover {
+        
+        background-color: rgb(36, 161, 93);
+     }
+
+    #card3 {
+        /* border: 1px solid black; */
+        background-color: lightblue;
+        text-align: center;
+        height: 210px;
+        width: 170px;
+        font-size: 12px;
+        margin-left: 100px;
+        transition: background-color 5s;
+        margin-top: 20px;
+    }
+
+    #card3:hover {
+        background-color: lime;
+    }
+
+    #card4 {
+        /* border: 1px solid black; */
+        background-color: lightgrey;
+        text-align: center;
+        height: 210px;
+        width: 170px;
+        font-size: 12px;
+        margin-left: 100px;
+        transition: background-color 5s;
+        margin-top: 20px;
+    }
+
+    #card4:hover {
+        background-color: hotpink;
+    } 
+    
+    .bg1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(165, 42, 42, 0.722);
+        height: 80px;
+        border-radius: 50%;
+        width: 80px;
+        margin-left: 45px;
+        margin-top: 25px;
+
+    }
+
+    .bg2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(233, 110, 28, 0.611);
+        height: 80px;
+        border-radius: 50%;
+        width: 80px;
+        margin-left: 45px;
+        margin-top: 20px;
+
+
+    }
+
+    .bg3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(10, 108, 10, 0.485);
+        height: 80px;
+        border-radius: 50%;
+        width: 80px;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .bg4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(143, 188, 143, 0.836);
+        height: 80px;
+        border-radius: 50%;
+        width: 80px;
+        margin-left: 45px;
+        margin-top: 20px;
+
+    }
+
+
+    #a1,
+    #a2,
+    #a3,
+    #a4 {
+        height: 40px;
+    }
+
+    .cardbox {
+        display: flex;
+        gap: 20px;
+        margin-top: 25px;
+        margin-left: 10px;
+        grid-template-columns: 2fr 2fr;
+        display: grid;
+        
+
+    }
+
+    .para1 {
+        margin-left: 50px;
+    }
+
+
+    /* container4 */
+
+    #photoA {
+        height: 350PX;
+        width: 365px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+
+    .container4 {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .content h1 {
+        font-size: 15px;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .info5 {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .content {
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+
+    .info2 {
+        margin-top: -5px;
+    }
+
+    .info3 {
+        margin-top: -40px;
+    }
+
+    #patient {
+        color: blue;
+    }
+
+    button {
+        background-color: blue;
+        color: white;
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        padding: 3px;
+        margin-top: -50px;
+    }
+
+    /* container5 */
+
+    .container5 {
+
+        border-radius: 20px;
+        background-color: white;
+        height: 130px;
+        width: 290px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        z-index: 1200;
+        position: relative;
+        bottom: 160px;
+        left: 50px;
+        padding: 20px;
+        box-shadow: 1px cadetblue;
+
+
+    }
+
+    .sec1 {
+        margin-top: -20px;
+    }
+
+
+
+    .rate {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        gap: 30px;
+        margin-top: -20px;
+    }
+
+    #load {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        height: 70px;
+        width: 70px;
+    }
+
+    /* container6 */
+
+    .container6 {
+        display: flex;
+        font-size: 12px;
+        margin-top: -120px;
+    }
+
+    #dr3 {
+        height: 350px;
+        width: 370px;
+        border-radius: 20px;
+    }
+
+    .show {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 20px;
+        
+    }
+
+
+    #img2 {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+
+
+}
